@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h3>Web Api from same Web Application</h3>
+        <div class="jtable-lite" id="tableContainer"></div>
+        <h3>Web Api from different Web Application</h3>
+        <div class="jtable-lite" id="table2Container"></div>
+
+    </div>
+
+@section Head
+{
+
+    <link href="~/lib/jquery-ui/jquery-ui-1.custom-jtable.css" rel="stylesheet" />
+    <link href="~/lib/jtable/themes/lite/inspania/jtable-lite.css" rel="stylesheet" />
+}
+
+@section Scripts
+{
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-migrate/jquery-migrate.js"></script>
+    <script src="~/lib/jquery-ui/jquery-ui-1.9.2.custom.min.js"></script>
+
+    <script src="~/lib/jtable/jquery.jtable.min.js"></script>
+
+    <script>
+
+        $(function() {
+
+            $("#tableContainer").jtable({
+                title: 'test',
+                //actions: {
+                //    listAction: 'https://localhost:44343/product/GetAllProducts',
+                //    createAction: 'https://localhost:44343/product/AddNewProduct',
+                //    updateAction: 'https://localhost:44343/product/EditProduct',
+                //    deleteAction: 'https://localhost:44343/product/DeleteProduct'
+                //},
+                actions: {
+                    listAction: 'product/GetAllProducts',
+                    createAction: 'product/AddNewProduct',
+                    updateAction: 'product/EditProduct',
+                    deleteAction: 'product/DeleteProduct'
+                },
+                fields: {
+                    Id: {
+                        key: true,
+                        create: false,
+                        edit: false,
+                        list: false
+                    },
+                    ProductName: {
+                        title: 'Name',
+                        width: '40%'
+                    },
+                    Price: {
+                        title: 'Price',
+                        width: '20%'
+                    },
+                    ProductCode: {
+                        title: 'Product Code',
+                        width: '30%'
+                    }
+                }
+            });
+            $('#tableContainer').jtable("load");
+
+
+            $("#table2Container").jtable({
+                title: 'test',
+                actions: {
+                    listAction: 'https://localhost:44311/product/GetAllProducts',
+                    createAction: 'https://localhost:44311/product/AddNewProduct',
+                    updateAction: 'https://localhost:44311/product/EditProduct',
+                    deleteAction: 'https://localhost:44311/product/DeleteProduct'
+                },
+                fields: {
+                    Id: {
+                        key: true,
+                        create: false,
+                        edit: false,
+                        list: false
+                    },
+                    ProductName: {
+                        title: 'Name',
+                        width: '40%'
+                    },
+                    Price: {
+                        title: 'Price',
+                        width: '20%'
+                    },
+                    ProductCode: {
+                        title: 'Product Code',
+                        width: '30%'
+                    }
+                }
+            });
+            $('#table2Container').jtable("load");
+        })
+    </script>
+}

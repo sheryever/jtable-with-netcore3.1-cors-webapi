@@ -1,0 +1,142 @@
+	body.rtls div.jtable-child-table-container {
+        margin: 1px 25px 5px 1px;
+    }
+	
+	body.rtls div.jtable-main-container > div.jtable-bottom-panel div.jtable-right-area {
+		right: auto !important;
+	}
+
+	.jtable-lite .jtable-child-table-container div.jtable-main-container > table.jtable {
+		border: 0px
+	}
+
+	.jtable-lite div.jtable-main-container > table.jtable, .jtable-lite .jtable-child-table-container .jtable-lite div.jtable-main-container > table.jtable {
+		border: 1px solid #129ebf00;
+	}
+
+	.jtable-lite div.jtable-main-container > div.jtable-title, .jtable-lite .jtable-child-table-container div.jtable-main-container > div.jtable-title {
+		    background-color: #005a8500;
+	}
+	
+	.jtable-lite div.jtable-main-container > div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover, .jtable-lite .jtable-child-table-container div.jtable-main-container > div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover  {
+		background-color: #005a85;
+	}
+	
+	.jtable-lite div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-text {
+		display: inline-block;
+		margin: 2px;
+		vertical-align: middle;
+		font-weight: 500;
+		font-size: 15px;
+		padding: 5px 10px;
+	}
+	
+	.jtable-lite .jtable-child-table-container div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-text {
+		font-size: 13px;
+		padding: 2px 10px;
+	}
+
+	.jtable-lite div.jtable-main-container > div.jtable-title div.jtable-toolbar span.jtable-toolbar-item.jtable-toolbar-item-hover {
+		padding-bottom: 2px !important;
+	}
+
+	.jtable-lite div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-icon {
+		margin: 0px -2px 0px 7px;
+	}
+	
+	body.rtls .jtable-lite div.jtable-main-container div.jtable-title div.jtable-toolbar span.jtable-toolbar-item span.jtable-toolbar-item-icon {
+		margin: 0px 7px 0px -2px;
+	}
+	
+		
+	.jtable-title .jtable-close-button {
+		margin: 4px 0px!important;
+	}
+
+	body.rtls .jtable-title .jtable-close-button {
+		margin: 4px 0px!important;
+	}
+
+
+	.jtable-lite div.jtable-main-container > div.jtable-title div.jtable-toolbar span.jtable-toolbar-item, .jtable-lite .jtable-child-table-container div.jtable-main-container > div.jtable-title div.jtable-toolbar span.jtable-toolbar-item  {
+		background-color: #21b8dc;
+	}
+	
+	.jtable-lite .jtable-child-table-container div.jtable-main-container > div.jtable-title div.jtable-title-text {
+		font-family: INHERIT;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 34px;
+		color: #262a2e;
+		font-style: italic;
+	}	
+	
+	.jtable-lite div.jtable-main-container > table.jtable > thead, .jtable-lite .jtable-child-table-container div.jtable-main-container > table.jtable > thead {
+		background-color: #129ebf00;
+		border-bottom: solid gray;
+	}
+	
+	.jtable-lite div.jtable-main-container > table.jtable > thead th {
+		font-family: inherit;
+		font-weight: 600;
+		font-size: 15px;
+		color: #212529;
+	}
+	
+	.jtable-lite .jtable-column-header-text{
+		filter: none !important;
+		-webkit-filter: none !important;
+				color: #212529 !important;
+	}
+
+	.jtable-lite div.jtable-main-container {
+		font-family: inherit;
+	}
+	
+	.jtable-lite div.jtable-main-container > table.jtable > tbody {
+		border-bottom: solid gray;
+	}
+
+	.jtable-lite div.jtable-main-container > table.jtable > tbody > tr.jtable-data-row > td {
+		padding: 5px;
+	}
+
+	.jtable-lite div.jtable-main-container > table.jtable > tbody > tr > td {
+		border: 0px;
+	}
+	
+	.jtable-lite.column-border div.jtable-main-container > table.jtable > tbody > tr > td {
+		border: 1px solid #ddd;
+	}
+
+	.jtable-lite div.jtable-main-container > div.jtable-bottom-panel {
+		background-color: #005a8500;
+		border: 0;
+		color: darkgray;
+		margin: 10px;
+		font-weight: 400;
+	}
+
+	.jtable-lite span.jtable-page-list span {
+		width: 37px;
+		font-weight: 500;
+		height: 37px;
+		text-align: center;
+		padding-top: 10px !important;
+		background-color: #005a85;
+		border-color: #005a85;
+	}
+
+	.jtable-lite .jtable-bottom-panel select {
+		height: 36px !important;
+		font-weight: 500 !important;
+	}
+
+	.jtable-lite div.jtable-main-container > div.jtable-bottom-panel span.jtable-goto-page {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.jtable-lite .child-opener-image-column img {
+		cursor: pointer;
+	}

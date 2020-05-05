@@ -1,0 +1,4 @@
+
+form.jtable-dialog-form div.jtable-input-label {
+    float: right; /* changed due to rtl */
+}

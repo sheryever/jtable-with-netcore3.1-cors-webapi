@@ -1,0 +1,32 @@
+
+form.jtable-dialog-form div.jtable-input-label {
+    padding: 2px 3px;
+    font-size: 1.1em;
+    /*scolor: #666;*/
+    width: 200px;
+    float: right; /* changed due to rtl */
+}
+
+.jtable-child-table-container {
+    padding-right: 30px;
+}
+
+div.jtable-main-container table.jtable thead th {
+vertical-align: middle;
+text-align: right;
+}
+
+div.jtable-main-container > table.jtable > thead th.jtable-column-header-sortable div.jtable-column-header-container {
+  background: url('metro/column-sortable.png') no-repeat left;
+}
+div.jtable-main-container > table.jtable > thead th.jtable-column-header-sorted-asc div.jtable-column-header-container {
+  background: url('metro/column-asc.png') no-repeat left;
+}
+div.jtable-main-container > table.jtable > thead th.jtable-column-header-sorted-desc div.jtable-column-header-container {
+  background: url('metro/column-desc.png') no-repeat left;
+}
+
+
+ td.child-opener-image-column img {
+    cursor: pointer;
+}
